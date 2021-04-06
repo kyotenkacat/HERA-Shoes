@@ -20,7 +20,7 @@
             <img id="menu_cross" style="opacity : 0; transform : rotate(90deg)" src="img/menu_cross.png" alt="menu_cross">
         </div>
         <div class="m_logo">
-            <a href="#"><img src="img/Logo.png" alt="logo"></a>
+            <a href="https://kyotenkacat.github.io/HERA-Shoes/"><img src="img/Logo.png" alt="logo"></a>
         </div>
         <div class="m_icon">
             <div class="m_icon_1">
@@ -102,7 +102,7 @@
                 </li>
             </ul>
             <div class="nav_img">
-                <a href="Index.html">
+                <a href="https://kyotenkacat.github.io/HERA-Shoes/">
                     <img src="img/Logo.png" alt="logo">
                 </a>
             </div>
@@ -229,7 +229,7 @@
                 <a href="item.html"><span>Rebecca</span></a>
             </div>
             <div class="invisible best_item col-sm-12 col-md-8 col-lg-4">
-                <a href="item.html"><img src="img/best_violet.jpg" alt="shoes"></a>
+                <a href="item.html"><img src="img/best_Violet.jpg" alt="shoes"></a>
                 <a href="item.html"><span>Bernadette</span></a>
             </div>
             <div class="invisible best_item col-sm-12 col-md-8 col-lg-4">
@@ -543,7 +543,7 @@
     </div>
 
     <script>
-        //entering animation for mmay items
+        //entering animation
         $(window).scroll(function () {
             if ($(this).scrollTop() > $('.best').offset().top - 600) {
                 $('.best_item').removeClass('invisible').addClass('fade_in_c');
@@ -560,7 +560,12 @@
                 $('.edit_right').removeClass('invisible').addClass('fade_from_right_c');
             }
         }); 
-        //entering animation for mmay items
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > $('.ig').offset().top - 600) {
+                $('.ig_item').removeClass('invisible').addClass('fade_in_c');
+            }
+        }); 
+        //entering animation
 
         //slides
         var slideIndex = 1;
