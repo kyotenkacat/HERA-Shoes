@@ -1,4 +1,5 @@
 [HERA Shoes](https://kyotenkacat.github.io/HERA-Shoes/)
+模擬販售女鞋的電商網站
 ===
 - 資策會個人作品 (2018.09 CD105期)
 - 僅使用原生 HTML, CSS, JavaScript
